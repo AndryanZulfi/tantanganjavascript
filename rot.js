@@ -1,18 +1,3 @@
-// function rot13(str) {
-//     let ascii = [] 
-//     str.split('').forEach((el, i) => ascii.push(str.charCodeAt(i)))
-//     return ascii.map(el => {
-//         if (el >= 65 && el <= 77)return el + 13
-//         else if(el > 77) return el - 13
-//         else if(el >= 97 && el <= 109) return el + 14
-//         else if(el > 109)return el - 12
-//         else return el
-//     }).map(el => String.fromCharCode(el)).join('')
-//   }
-//   console.log(rot13("LOVE GAY"))
-//   console.log(String.fromCharCode(77))
-//   console.log('Z'.charCodeAt(0))
-
 function rot(str, root) {
     let ascii = [] 
     str.split('').forEach((el, i) => ascii.push(str.charCodeAt(i)))
@@ -22,7 +7,7 @@ function rot(str, root) {
         else return el
     }).map(el => String.fromCharCode(el)).join('')
   }
-  console.log(rot("LOVE GAY" ,15))
+  console.log(rot("LOVE YOU" ,15))
   console.log(String.fromCharCode(77))
   console.log('z'.charCodeAt(0))
 
@@ -35,4 +20,4 @@ function rot(str, root) {
 //     return el
 // }).join('')
 
-console.log(rot("LOVE GAY", 13));
+console.log(rot("LOVE YOU TO", 13));
