@@ -8,8 +8,9 @@ function rot(str, root) {
     }).map(el => String.fromCharCode(el)).join('')
   }
   console.log(rot("LOVE YOU" ,15))
-  console.log(String.fromCharCode(77))
-  console.log('z'.charCodeAt(0))
+  console.log(rot("LOVE YOU TO", 13));
+  // console.log(String.fromCharCode(77))
+  // console.log('z'.charCodeAt(0))
 
 // const rot = (str, root) => str.split('').map(el => {
 //     let code =el.charCodeAt(0)
@@ -19,5 +20,3 @@ function rot(str, root) {
 //     }
 //     return el
 // }).join('')
-
-console.log(rot("LOVE YOU TO", 13));
