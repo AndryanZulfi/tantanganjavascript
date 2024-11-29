@@ -7,8 +7,9 @@ function rot(str, root) {
         else return el
     }).map(el => String.fromCharCode(el)).join('')
   }
-  console.log(rot("LOVE YOU" ,15))
+  console.log(rot("" ,15))
   console.log(rot("LOVE YOU TO", 13));
+
   // console.log(String.fromCharCode(77))
   // console.log('z'.charCodeAt(0))
 
